@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.b2 p{
+    font-size: 70px;
+    color:turquoise;
+}
+.b1 h1{
+    text-decoration: underline;
+    text-decoration-color: brown;
+    font-family: cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+button{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: wheat;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+button:hover{
+    border:2px solid blueviolet;
+    
+}
+.box{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    background-color:coral;
+    gap:30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
